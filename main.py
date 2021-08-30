@@ -13,6 +13,7 @@ BLUE = (0, 0, 255)
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("memory puzzle")
+pygame.display.set_icon(pygame.image.load("data/icon.ico"))
 
 running = True
 while running:
